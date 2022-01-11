@@ -1,17 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto:ital,wght@0,400;1,300;1,500;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
 .calculator {
     display: flex;
+    flex-direction: column;
     flex: 1;
-    justify-content: center;
-    align-items: center;
-    height: 122px;
-    width: 76px;
-    color: #F5F5DC;
-    border: 1px solid black;
-    padding: 100px;
+    height: 760px;
+    width: 550px;
+    background: #F5F5DC;
+    border: 8px solid black;
+    padding: 40px;
     margin: 300px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px 12px grey;
+    justify-content: flex-start;
+    gap: 80px;
+}
+
+.screen {
+    flex: 0 1 auto;
+    height: 100px;
+    background: white;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.pad {
+    flex: 0 1 auto;
+    height: 580px;
+    background: grey;
+    font-family: 'Orbitron', sans-serif;
 }
 
